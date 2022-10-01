@@ -10,14 +10,14 @@ As more and more people tend to move towards renting instead of ownership due to
 # Description:
 Our project consists of two major elements:
 
-1. Backend:
+# 1. Backend:
 The backend was created by using SQL Server as IDE and SQL as the programming language. The project mainly consists of three tables:
 
 1) car_info: This table will be used to store and retrieve information of the vehicles under the ownership of the company. Primary Key: number_plate
 2) login_info: This table will be used to store information of the people authorized to access the main dashboard. Primary Key: username
 3) user_info: This table consists of information regarding each booking made. It includes the customers information for example their contact information and CNIC number. Primary Key: CNIC Foreign Key: car_info(number_plate)
 
-2. Frontend:
+# 2. Frontend:
 The front end of the project has been programmed on the C# programming language, where we have used System.Windows.Forms library that provides a huge amount of options to create an interactive and presentable interface for the user. Our project primarily consists of 9 forms each with its individual functionality. Some of the following functions are stated as below:
 
 1) Login and Sign Up: These forms can be used to access the application using a combination of username and passwords. The user may if, not already a member, can sign up by entering their information and choosing a username and password of their choice. They can then use the login information to access the main dashboard.
